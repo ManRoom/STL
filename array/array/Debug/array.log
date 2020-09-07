@@ -1,0 +1,2 @@
+﻿  array.cpp
+C:\Users\purpl\source\repos\array\array\array.cpp(14,7): error C4996: 'std::array<int,10>::assign': warning STL4002: The non-Standard std::tr1 namespace and TR1-only machinery are deprecated and will be REMOVED. You can define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.

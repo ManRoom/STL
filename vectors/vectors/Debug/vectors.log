@@ -1,0 +1,3 @@
+﻿  vectors.cpp
+C:\Users\purpl\source\repos\vectors\vectors\vectors.cpp(10,23): warning C4018: <: несоответствие типов со знаком и без знака
+  vectors.vcxproj -> C:\Users\purpl\source\repos\vectors\Debug\vectors.exe
