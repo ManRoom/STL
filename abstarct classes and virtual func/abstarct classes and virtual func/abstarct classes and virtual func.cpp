@@ -7,6 +7,10 @@ using namespace std;
 class Weapon {
 public:
 	virtual void Shoot() = 0;
+
+	void reCharge() {
+		cout << "recharge weapon!" << endl;
+	}
 };
 
 class Gun : public Weapon {
@@ -56,7 +60,7 @@ public:
 
 int main() {
 	Player player;
-
+	
 	Gun gun;
 	Bazooka bazz;
 	RangeGun rg;
@@ -72,6 +76,7 @@ int main() {
 	player.Shoot(&rg);
 
 	player.Shoot(&kn);
+	gun.reCharge();
 
  return 0;
 }
