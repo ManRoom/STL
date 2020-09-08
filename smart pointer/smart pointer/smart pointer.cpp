@@ -4,7 +4,7 @@ using namespace std;
 template<typename T>
 class SmartPointer {
 public:
-    SmartPointer(T *ptr) {
+    SmartPointer(T* ptr1) {
         this->ptr = ptr;
         cout << "constructor" << endl;
     }
@@ -26,7 +26,9 @@ private:
 int main()
 {
 
-    SmartPointer<int> pointer = new int(10);
+    SmartPointer<int> pointer = new int(5);
+
+
     cout << *pointer << endl;
 
 
